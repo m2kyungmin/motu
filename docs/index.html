@@ -96,6 +96,8 @@
   li { margin:4px 0; }
   .head { display:flex; gap:16px; align-items:center; }
   .head img { width:72px; height:72px; border-radius:16px; flex:none; }
+  .badge { display:inline-block; margin:4px 0 0 -12px; padding:12px; line-height:0; } /* Apple 여백 기준: 배지 높이의 1/4 */
+  .badge img { display:block; height:48px; width:auto; }
   .cta { display:inline-block; margin:16px 0 0; padding:10px 18px; border-radius:10px; background:var(--accent); color:#1d1d1f; font-weight:600; text-decoration:none; }
   .shots { display:flex; gap:12px; margin:24px 0 0; }
   .shots img { width:calc(50% - 6px); max-width:240px; height:auto; border-radius:16px; border:1px solid var(--line); }
@@ -114,7 +116,7 @@
 </div>
 
 <p>모투는 친구들과 폰으로 함께 하는 한국어 끝말잇기 파티 게임입니다. 43만 개가 넘는 단어 사전으로 단어가 맞는지 바로 판정하고, 진 사람의 벌칙은 폭탄 돌리기·마블 룰렛·벌칙 원판으로 정합니다. 로그인도 광고도 없습니다.</p>
-<a class="cta" href="https://apps.apple.com/kr/app/id6823137577">App Store에서 받기</a>
+<a class="badge" href="https://apps.apple.com/kr/app/id6823137577"><img src="img/app-store-badge-ko.svg" alt="App Store에서 다운로드" height="48" width="156"></a>
 
 <div class="shots">
   <img src="img/screen-game.jpg" alt="친구들과 끝말잇기를 하는 게임 화면" width="552" height="1200" loading="lazy">
