@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://mintech.ai.kr/motu/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://mintech.ai.kr/motu/privacy.html</loc><lastmod>2026-10-18</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mintech.ai.kr/motu/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mintech.ai.kr/motu/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mintech.ai.kr/motu/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mintech.ai.kr/motu/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mintech.ai.kr/motu/"/>
+  </url>
+  <url>
+    <loc>https://mintech.ai.kr/motu/ja/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mintech.ai.kr/motu/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mintech.ai.kr/motu/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mintech.ai.kr/motu/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mintech.ai.kr/motu/"/>
+  </url>
+  <url>
+    <loc>https://mintech.ai.kr/motu/zh/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mintech.ai.kr/motu/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mintech.ai.kr/motu/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mintech.ai.kr/motu/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mintech.ai.kr/motu/"/>
+  </url>
+  <url>
+    <loc>https://mintech.ai.kr/motu/privacy.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mintech.ai.kr/motu/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mintech.ai.kr/motu/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mintech.ai.kr/motu/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mintech.ai.kr/motu/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mintech.ai.kr/motu/ja/privacy.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mintech.ai.kr/motu/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mintech.ai.kr/motu/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mintech.ai.kr/motu/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mintech.ai.kr/motu/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://mintech.ai.kr/motu/zh/privacy.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mintech.ai.kr/motu/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mintech.ai.kr/motu/ja/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://mintech.ai.kr/motu/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mintech.ai.kr/motu/privacy.html"/>
+  </url>
 </urlset>

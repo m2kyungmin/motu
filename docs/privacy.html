@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>모투 개인정보처리방침</title>
+<link rel="canonical" href="https://mintech.ai.kr/motu/privacy.html">
+<link rel="alternate" hreflang="ko" href="https://mintech.ai.kr/motu/privacy.html">
+<link rel="alternate" hreflang="ja" href="https://mintech.ai.kr/motu/ja/privacy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://mintech.ai.kr/motu/zh/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://mintech.ai.kr/motu/privacy.html">
 <style>
   :root { --bg:#fff; --fg:#1d1d1f; --muted:#6e6e73; --line:#e5e5ea; --accent:#c79a00; }
   @media (prefers-color-scheme: dark) { :root { --bg:#141416; --fg:#f2f2f7; --muted:#a1a1a6; --line:#2c2c2e; --accent:#ffd23f; } }
@@ -14,10 +19,14 @@
   .muted { color:var(--muted); font-size:14px; }
   a { color:var(--accent); }
   li { margin:4px 0; }
+  .lang { margin:0 0 20px; text-align:right; font-size:14px; color:var(--muted); }
+  .lang a, .lang span { margin-left:12px; }
+  .lang span { color:var(--fg); font-weight:600; }
 </style>
 </head>
 <body>
 <main>
+<nav class="lang" aria-label="언어 선택"><span lang="ko" aria-current="page">한국어</span><a href="ja/privacy.html" hreflang="ja" lang="ja">日本語</a><a href="zh/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></nav>
 <h1>개인정보처리방침</h1>
 <p class="muted">모투(iOS 앱) · 시행일 2026년 11월 16일</p>
 
@@ -31,7 +40,7 @@
 
 <h2>2. 함께 플레이할 때 오가는 정보</h2>
 <ul>
-  <li><strong>근처 플레이</strong>: 같은 Wi-Fi나 가까운 거리의 기기끼리 직접 연결합니다(로컬 네트워크 권한 사용). 닉네임, 꾸미기, 입력한 단어, 점수가 같은 방의 참가자 기기로만 전달됩니다. 연결은 방 코드로 암호화됩니다.</li>
+  <li><strong>근처 플레이</strong>: 같은 Wi-Fi나 가까운 거리의 기기끼리 직접 연결합니다(로컬 네트워크 권한 사용). 닉네임, 꾸미기, 입력한 단어, 점수가 같은 방의 참가자 기기로만 전달됩니다. 연결은 암호화(TLS)됩니다.</li>
   <li><strong>인터넷 플레이</strong>: Apple의 Game Center로 친구를 초대하고 연결합니다. 이때 Game Center 계정 정보는 Apple이 처리하며, Apple의 개인정보 처리방침을 따릅니다. 게임 중 오가는 정보는 근처 플레이와 같습니다.</li>
 </ul>
 <p>개발자는 이 정보를 받거나 보관하지 않습니다.</p>
