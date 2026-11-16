@@ -170,7 +170,7 @@ final class HostCore {
 
     func addRobot(level: Int) {
         let id = "robot-\(UUID().uuidString.prefix(6))"
-        state.players.append(RoomPlayer(id: id, name: "끄투 봇 · \(Robot.levelName(level))", ready: true, robotLevel: level, team: nextTeam))
+        state.players.append(RoomPlayer(id: id, name: "모투 봇 · \(Robot.levelName(level))", ready: true, robotLevel: level, team: nextTeam))
         broadcastState()
     }
 

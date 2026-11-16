@@ -19,3 +19,4 @@ fastlane/test_output/
 *.ipa
 *.dSYM.zip
 build/
+fastlane/screenshots_raw/
