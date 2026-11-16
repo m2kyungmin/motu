@@ -1,0 +1,18 @@
+모레미 캐릭터 원본
+
+Rule the words! KKuTu Online · JJoriping
+https://github.com/JJoriping/KKuTu
+원본 커밋: a2c240bc31fe2dea31d26fb1cf7625b4645556a6
+
+원본 경로: Server/lib/Web/public/img/kkutu/moremi/
+- body.png → MoremiBody
+- robot.png → MoremiRobot
+- eye/def.png → MoremiEyes
+- mouth/def.png → MoremiMouth
+- head/·eye/·mouth/의 기본값 외 꾸미기 29종 → MoremiItem_* (Customization.swift의 CosmeticCatalog에 원본 파일명 기록)
+
+원작 README의 이미지 라이선스: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+https://github.com/JJoriping/KKuTu#라이선스
+
+원본 PNG는 수정하지 않았다. 앱에서 몸·눈·입을 겹쳐 표시하며 크기만 조절한다.

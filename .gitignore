@@ -1,0 +1,21 @@
+vendor/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+*.xcodeproj
+
+# fastlane
+fastlane/keys/
+fastlane/.env*
+fastlane/metadata/review_information/phone_number.txt
+fastlane/screenshots/**/*.png
+fastlane/screenshots/**/*.html
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/test_output/
+*.p8
+*.ipa
+*.dSYM.zip
+build/

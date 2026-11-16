@@ -1,0 +1,51 @@
+name: Ccutu
+options:
+  bundleIdPrefix: dev.kyungmin
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+packages:
+  KkutuCore:
+    path: KkutuCore
+targets:
+  Ccutu:
+    type: application
+    platform: iOS
+    sources:
+      - path: Ccutu
+        excludes: ["Info.plist", "Resources/**"]
+      - path: Ccutu/Resources
+        buildPhase: resources
+    dependencies:
+      - package: KkutuCore
+    info:
+      path: Ccutu/Info.plist
+      properties:
+        CFBundleDisplayName: 모투
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        CFBundleIconName: AppIcon
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen: {}
+        UIAppFonts: [BlackHanSans-Regular.ttf]
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSLocalNetworkUsageDescription: 근처 친구의 방을 찾고 안전하게 연결해 함께 플레이하기 위해 필요합니다.
+        NSBonjourServices: [_motu-v2._tcp]
+    entitlements:
+      path: Ccutu/Ccutu.entitlements
+      properties:
+        com.apple.developer.game-center: true
+    attributes:
+      SystemCapabilities:
+        com.apple.GameCenter:
+          enabled: 1
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: 4MKG9D7KY5
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1"   # iPhone만. 세로 전용이라 iPad를 넣으면 ASC가 모든 방향을 요구(오류 90474)
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: 1
